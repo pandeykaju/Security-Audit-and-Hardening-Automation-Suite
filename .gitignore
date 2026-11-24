@@ -1,0 +1,31 @@
+# Security audit logs
+logs/*
+*.log
+
+# Generated reports
+reports/*
+
+# Sensitive backups
+backups/*
+*.bak
+*.backup
+
+# Environment and secret files
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Thumbs.db
